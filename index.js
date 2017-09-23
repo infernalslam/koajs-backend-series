@@ -1,5 +1,7 @@
-const Koa = require('koa')
-const route = require('./route')
+// const Koa = require('koa')
+// const route = require('./route')
+import Koa from 'koa'
+import route from './route'
 
 const app = new Koa()
 const port = 5000
